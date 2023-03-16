@@ -1,0 +1,15 @@
+r=1
+a=1
+while r<=3 :
+    s=2
+    while s>=r :
+        print("_",end=" ")
+        s=s-1
+    c=1
+    while c<=a :
+        print("*",end=" ")
+        c=c+1
+    print()
+    r=r+1
+    a=a+2
+print()
