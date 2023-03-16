@@ -13,3 +13,9 @@ while r<=3 :
     r=r+1
     a=a+2
 print()
+
+
+#you will got result this
+#_ _ * 
+#_ * * * 
+#* * * * * 
