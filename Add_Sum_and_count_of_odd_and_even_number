@@ -1,0 +1,18 @@
+print("Programe is start")
+a=[2,4,5,6.7,8,9,10,13,15,11,13,17]
+od=0
+oc=0
+ev=0
+ec=0
+for x in a :
+  if x%2==0 :
+      ev=ev+x
+      ec=ec+1
+  else :
+      od=od+x
+      oc=oc+1
+print(ec)
+print(ev)
+print(oc)
+print(od)
+print("end")
