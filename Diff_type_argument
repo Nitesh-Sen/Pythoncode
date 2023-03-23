@@ -1,0 +1,40 @@
+#1. N A N R
+#2. A W N R
+#3. A W R
+#4. N A W R 
+
+def abc():
+    a=12
+    b=15
+    c=a+b
+    print("hello sum=", c)
+
+#-----------------
+def abcd(a):
+    x=a
+    y=a
+    z=x+y
+    return z
+#-------------
+def abcde(a,b) :
+    c=a+b
+    print("sum c =", c)
+#-----------------
+
+def ab():
+    a=12
+    b=15
+    c=a+b
+    return c
+    
+    
+print("one")
+abc()
+print("two")
+abcde(10,20)
+print("three")
+x=abcd(5)
+print("sum of x and y = ",x)
+print("four")
+y=ab()
+print("sum of y= ",y)
